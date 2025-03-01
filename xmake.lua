@@ -6,13 +6,9 @@ set_policy("build.c++.modules", true)
 
 add_rules("plugin.compile_commands.autoupdate", { outputdir = "./" })
 
-set_languages("c23", "c++latest")
+set_languages("c23", "c++26")
 
-set_plat("mingw")
-
-set_toolchains("clang")
-
-set_runtimes("c++_static")
+add_requires("mimalloc")
 
 target("test")
     set_kind("binary")
@@ -22,8 +18,7 @@ target("test")
 
     add_cxxflags("-march=native", "-flto=thin")
 
-    add_files("E:\\mimalloc-dev\\build\\libmimalloc-static.a")
-
+    add_packages("mimalloc")
 
 -- xmake project -k compile_commands
 -- xmake project -k cmakelists
