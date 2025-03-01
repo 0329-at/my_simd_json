@@ -1,0 +1,11 @@
+[
+{
+  "directory": "E:\\VSC_demo\\simd_json\\test",
+  "arguments": ["clang.exe", "-c", "-Qunused-arguments", "-m64", "--target=x86_64-w64-windows-gnu", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-Wall", "-O3", "-std=c++26", "-stdlib=libc++", "-Iinclude", "-march=native", "-flto=thin", "-DNDEBUG", "-o", "build\\.objs\\test\\mingw\\x64\\release\\src\\main.cpp.obj", "src\\main.cpp"],
+  "file": "src\\main.cpp"
+},
+{
+  "directory": "E:\\VSC_demo\\simd_json\\test",
+  "arguments": ["clang.exe", "-c", "-Qunused-arguments", "-m64", "--target=x86_64-w64-windows-gnu", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-Wall", "-O3", "-std=c++26", "-stdlib=libc++", "-Iinclude", "-march=native", "-flto=thin", "-DNDEBUG", "-o", "build\\.objs\\test\\mingw\\x64\\release\\include\\json_parser.cpp.obj", "include\\json_parser.cpp"],
+  "file": "include\\json_parser.cpp"
+}]

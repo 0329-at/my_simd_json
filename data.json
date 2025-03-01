@@ -1,0 +1,26 @@
+{
+    "project": {
+        "name": "json-parser",
+        "version": "1.0.0",
+        "dependencies": {
+            "header-only": {
+                "version": "1.0",
+                "features": ["simd", "no-exceptions", "c++26"]
+            },
+            "full-library": {
+                "version": "2.0",
+                "features": ["multithreading", "networking"]
+            }
+        },
+        "contributors": [
+            {
+                "name": "John Doe",
+                "email": "john.doe@example.com"
+            },
+            {
+                "name": "Jane Smith",
+                "email": "jane.smith@example.com"
+            }
+        ]
+    }
+}
